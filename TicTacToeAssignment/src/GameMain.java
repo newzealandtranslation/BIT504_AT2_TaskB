@@ -17,7 +17,7 @@ public class GameMain extends JPanel implements MouseListener {
     //Noughts and Crosses are displayed inside a cell, with padding from border
     public static final int CELL_PADDING = CELL_SIZE / 6;
     public static final int SYMBOL_SIZE = CELL_SIZE - CELL_PADDING * 2;
-    public static final int SYMBOL_STROKE_WIDTH = 8;
+    public static final int SYMBOL_STROKE_WIDTH = 7;
 
     /*declare game object variables*/
     // the game board
