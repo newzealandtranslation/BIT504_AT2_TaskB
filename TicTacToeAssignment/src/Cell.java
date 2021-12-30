@@ -33,7 +33,7 @@ public class Cell {
         int x1 = col * GameMain.CELL_SIZE + GameMain.CELL_PADDING;
         int y1 = row * GameMain.CELL_SIZE + GameMain.CELL_PADDING;
         if (content == Player.Cross) {
-            graphic2D.setColor(Color.PINK);
+            graphic2D.setColor(Color.RED);
             int x2 = (col + 1) * GameMain.CELL_SIZE - GameMain.CELL_PADDING;
             int y2 = (row + 1) * GameMain.CELL_SIZE - GameMain.CELL_PADDING;
             graphic2D.drawLine(x1, y1, x2, y2);
